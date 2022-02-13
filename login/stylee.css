@@ -265,6 +265,7 @@ input:focus, textarea:focus, select:focus{
     height: 35px;
     border: 1px solid gray;
     border-left: 0;
+    border-radius: 0;
 }
 .form{
     margin-top: 60px;
@@ -387,6 +388,7 @@ input:focus, textarea:focus, select:focus{
     width: 90%;
     height: 35px;
     border-left: 0;
+    border-radius: 0;
 }
 .usern .fa-user{
     border: 1px solid gray;
