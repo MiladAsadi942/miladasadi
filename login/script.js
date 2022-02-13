@@ -30,7 +30,15 @@ resbtn.addEventListener('click' , function(e){
     signs.style.display = 'block';
     logins.style.display = 'none'; 
     e.preventDefault();
+})
+
+let resbtn2 = document.getElementById('resbtn2');
+
+resbtn2.addEventListener('click' , function(e){
     
+    logins.style.display = 'flex';
+    signs.style.display = 'none';
+    e.preventDefault();
    
 
 })
